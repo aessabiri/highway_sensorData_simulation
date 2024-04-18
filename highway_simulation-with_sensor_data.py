@@ -41,10 +41,8 @@ class HighwaySimulation:
             car_positions.append((left_value,middle_value,right_value))
             counter -= 1
         
-        
-        #Generate and print sensor data
-       # 
-        #print("Sensor Data:", sensor_data)
+
+
 
         return road, car_positions
 
